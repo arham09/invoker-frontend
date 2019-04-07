@@ -1,7 +1,15 @@
-import React from 'react'
+import React, { Component } from 'react'
+import './person.css'
 
-const person = () => {
-  return <p>My name is Arham Awal Abiyan</p>
+class Person extends Component {
+  render () {
+    return (
+      <div className='person'>
+        <p>My name {this.props.name} And I'm {this.props.age} years sold</p>
+        <p>My hobby is {this.props.hobby}</p>
+      </div>
+    )
+  }
 }
 
-export default person
+export default Person
