@@ -1,5 +1,5 @@
 # Invoker
-API for Invoker Magic Joke
+Frontend for Invoker Magic Joke
 
 [![Code Style](https://img.shields.io/badge/code%20style-standard-green.svg)](https://github.com/feross/standard)
 
