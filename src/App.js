@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import './App.css'
 import Person from './person/person'
+import Footer from './components/footer'
 
 class App extends Component {
   state = {
@@ -42,6 +43,7 @@ class App extends Component {
         {/* {console.log(this.state)} */}
         <Person name= {this.state.persons[0].name} age= {this.state.persons[0].age} hobby= {this.state.persons[0].hobby}/>
         <Person name= {this.state.persons[1].name} age= {this.state.persons[1].age} hobby= {this.state.persons[1].hobby}/>
+        <Footer />
       </div>
     )
   }
